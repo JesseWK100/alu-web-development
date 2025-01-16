@@ -11,14 +11,20 @@ body {
     flex-direction: column; /* Stacks header, main, and footer vertically */
     height: 100vh; /* Full height of the viewport */
     font-family: Arial, sans-serif; /* Set a default font */
+    font-size: 16px; /* Default font size */
+    color: #212529; /* Neutral text color */
+    background-color: #f8f9fa; /* Light background */
+    padding: 0 10px; /* Small padding around content */
 }
 
 /* Style for the header */
 header {
-    background-color: #007bff;
+    background-color: #004085; /* Darker blue */
     color: white;
     text-align: center;
     padding: 20px;
+    border-bottom: 5px solid #007bff; /* Add a bottom border */
+    font-family: 'Verdana', sans-serif; /* Custom font */
 }
 
 /* Style for the main container */
@@ -28,14 +34,33 @@ main {
     flex: auto; /* Take the remaining space in the body */
     height: auto; /* Adjust automatically */
     width: 100%; /* Full width */
+    gap: 15px; /* Add spacing between article and aside */
 }
 
 /* Style for the article */
 article {
-    flex: 2; /* Takes 2/3 of the available width */
-    background-color: #f9f9f9;
+    background-color: #e9ecef; /* Light gray background */
     padding: 20px;
-    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    border-radius: 10px; /* Rounded corners */
+    font-family: 'Georgia', serif; /* Stylish font for the article */
+    line-height: 1.6; /* Improve readability */
+}
+
+article h1 {
+    color: #007bff; /* Blue headline */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+article ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+    list-style-type: square; /* Use a square bullet */
 }
 
 /* Style for the aside */
@@ -48,10 +73,12 @@ aside {
 
 /* Style for the footer */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #333; /* Dark background */
+    color: #f8f9fa; /* Light text */
     text-align: center;
     padding: 10px 0;
+    font-style: italic; /* Add a slight italic style */
+    border-top: 3px solid #007bff; /* Add a top border */
 }
 
 /* Responsive Layout: For Screens Smaller than 768px */
@@ -81,3 +108,10 @@ footer {
         font-size: 14px;
     }
 }
+
+.logo {
+    font-size: 2rem; /* Make the logo bigger */
+    color: #007bff; /* Logo color */
+    margin-right: 10px; /* Space between the logo and text */
+}
+
