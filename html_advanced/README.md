@@ -1,53 +1,29 @@
-HTML Advanced: Semantic Webpage Implementation
+Smile
 
-PROJECT OVERVIEW 
-This project is part of the alu-web-development curriculum, designed to enhance skills in building semantic and accessible HTML structures. You will recreate a webpage entirely in HTML, adhering strictly to the design specifications provided in a Figma file. This project does not involve any styling (CSS) or interactivity (JavaScript), focusing solely on semantic and structural accuracy.
+Author
+Jesse Kisaale Walusansa (GitHub: JesseWK100)
 
-KEY OBJECTIVES
-Recreate the Figma Design: Accurately replicate the structure of the webpage using HTML.
-Semantic HTML: Use appropriate HTML5 tags to ensure accessibility and maintain best practices.
-No Styling: Concentrate purely on the layout and structure, excluding any CSS or visual design elements.
+Overview
+This repository contains an implementation of a webpage using pure HTML semantic elements. The design is based on the provided designer file without any CSS or styling.
 
-GETTING STARTED
-Prerequisites
-To complete this project, you’ll need the following tools and resources:
+Design Preview
+![School Page](https://user-images.githubusercontent.com/67793634/192224177-3a136d6d-9c94-426a-8bda-370f44123684.png)
 
-A Figma Account: Create a free Figma account to access the design file.
-Fonts:
-- Source Sans Pro
-- Spin Cycle OT (replace with actual link if available)
-A Code Editor: Any text editor, such as Visual Studio Code, Sublime Text, or Atom.
+Getting Started
+Follow these steps to clone the repository and view the webpage using `index.html`.
 
-ACCESSING THE DESIGN
-- Visit the Figma link provided: https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&p=f&t=mI0A40dAhZ8ZWBnX-0
-- Duplicate the file to your drafts by clicking "Duplicate to your Drafts."
-- Review the design details, including spacing, fonts, and layout.
+Clone Repository
+```bash
+https://github.com/Kosisookeke/alu-web-development.git
+```
 
-FILE STRUCTURE
-The project should be organized as follows:
+Open Webpage
+1. Navigate to the cloned directory.
+2. Locate the `index.html` file.
+3. Open `index.html` in your preferred web browser.
 
-alu-web-development/
-└── html_advanced/
-    ├── index.html
-    └── README.md
+Now, you can explore the webpage designed using pure HTML semantic elements.
 
-DEVELOPMENT GUIDELINES
-- Precision: Ensure your HTML structure aligns closely with the Figma design. Round float values where necessary.
-- Semantic Tags: Use meaningful HTML5 tags such as <header>, <section>, <article>, and <footer> to enhance accessibility and readability.
-- Valid Markup: Ensure your HTML passes W3C validation (https://validator.w3.org/).
+Feel free to reach out to Me, for any questions or feedback.
 
-EXAMPLE LAYOUT GUIDE
-Section	HTML Tag	Description
-Header	<header>	Contains the logo and navigation menu.
-Main Content	<main>	Holds the central content of the page.
-Footer	<footer>	Includes contact information and social links.
-
-NOTES AND TIPS
-Font Issues: If your computer lacks the required fonts, download them from the links above and install them locally.
-Figma Measurements: When encountering float values in Figma, round them to the nearest whole number unless precision is required.
-Keyboard Navigation: Ensure the webpage is accessible via keyboard navigation as a best practice.
-
-AUTHOR
-Name: Jesse Walusansa Kisaale
-Email: j.walusansa@alustudent.com
-GitHub: JesseWK100
+Thanks !!!!
