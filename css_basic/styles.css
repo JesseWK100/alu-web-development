@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox Layout</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        Content of the <header> tag
+    </header>
+    <main>
+        <article>
+            Content of the <article> tag
+        </article>
+        <aside>
+            Content of the <aside> tag
+        </aside>
+    </main>
+    <footer>
+        Content of the <footer> tag
+    </footer>
+</body>
+</html>
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    display: flex; /* Flex container */
+    flex-direction: column; /* Stacks header, main, and footer vertically */
+    height: 100vh; /* Full height of the viewport */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Style for the header */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the main container */
+main {
+    display: flex; /* Flex container */
+    flex-direction: row; /* Align article and aside horizontally */
+    flex: auto; /* Take the remaining space in the body */
+    height: auto; /* Adjust automatically */
+    width: 100%; /* Full width */
+}
+
+/* Style for the article */
+article {
+    flex: 2; /* Takes 2/3 of the available width */
+    background-color: #f9f9f9;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* Style for the aside */
+aside {
+    flex: 1; /* Takes 1/3 of the available width */
+    background-color: #f1f1f1;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
