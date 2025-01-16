@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Flexbox Layout</title>
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        Content of the <header> tag
-    </header>
-    <main>
-        <article>
-            Content of the <article> tag
-        </article>
-        <aside>
-            Content of the <aside> tag
-        </aside>
-    </main>
-    <footer>
-        Content of the <footer> tag
-    </footer>
-</body>
-</html>
-
 /* General Reset */
 * {
     margin: 0;
@@ -78,4 +52,32 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Responsive Layout: For Screens Smaller than 768px */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; /* Stack article and aside vertically */
+    }
+
+    article, aside {
+        flex: auto; /* Equal space allocation */
+        padding: 10px;
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+}
+
+/* Additional Adjustment: For Screens Smaller than 480px */
+@media (max-width: 480px) {
+    header, footer {
+        font-size: 14px; /* Smaller font for smaller screens */
+    }
+
+    article, aside {
+        padding: 5px;
+        font-size: 14px;
+    }
 }
