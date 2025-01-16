@@ -1,4 +1,4 @@
-# Smile
+Smile
 
 Author
 Jesse Kisaale Walusansa (GitHub: JesseWK100)
@@ -14,7 +14,7 @@ Follow these steps to clone the repository and view the webpage using `index.htm
 
 Clone Repository
 ```bash
-https://github.com/Kosisookeke/alu-web-development.git
+https://github.com/JesseWK100/alu-web-development.git
 ```
 
 Open Webpage
